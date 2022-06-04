@@ -98,7 +98,7 @@ defineProps({
     &__description {
       font-size: var(--text-md);
       line-height: 1.3;
-      max-height: 5ch;
+      max-height: 6ch;
       overflow: hidden;
       @media only screen and (max-width: 600px) {
         font-size: var(--text-base);
