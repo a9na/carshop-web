@@ -1,0 +1,43 @@
+{
+  "name": "vite-vue-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && cp dist/index.html dist/200.html",
+    "deploy": "npm run build && surge",
+    "preview": "vite preview",
+    "test:open": "peeky open",
+    "test": "peeky run"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/vue-fontawesome": "^3.0.0-5",
+    "@vueuse/core": "^7.5.3",
+    "@vueuse/router": "^7.5.3",
+    "boxicons": "^2.1.2",
+    "lodash": "^4.17.21",
+    "pinia": "^2.0.9",
+    "vite-plugin-fonts": "^0.2.2",
+    "vue": "^3.2.25",
+    "vue-dragscroll": "^3.0.1",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@peeky/test": "^0.13.5",
+    "@vitejs/plugin-vue": "^2.0.0",
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier-vue": "^3.1.0",
+    "eslint-plugin-vue": "^8.3.0",
+    "prettier": "^2.5.1",
+    "sass": "^1.47.0",
+    "unplugin-auto-import": "^0.5.11",
+    "unplugin-vue-components": "^0.17.11",
+    "vite": "^2.7.2"
+  }
+}
+
+
