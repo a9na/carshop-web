@@ -78,7 +78,7 @@ const { width } = useWindowSize();
     }
   }
   &__description {
-    max-width: 8ch;
+    max-width: 42ch;
     font-size: var(--text-xl);
     @media only screen and (max-width: 800px) {
       font-size: var(--text-md);
