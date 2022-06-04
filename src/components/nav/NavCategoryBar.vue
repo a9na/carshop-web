@@ -87,7 +87,7 @@ const emit = defineEmits(['close']);
 
 <style lang="scss" scoped>
 .category-bar {
-  background: var(--cornflower-blue);
+  background: var(--blue-2-opaque);
   &__nav {
     display: flex;
     align-items: center;
@@ -109,7 +109,7 @@ const emit = defineEmits(['close']);
     padding: 0.4rem 1rem;
     border-radius: var(--border-radius);
     &:hover {
-      background: var(--brown-800);
+      background: var(--cornflower-blue);
     }
   }
 }
