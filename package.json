@@ -7,7 +7,8 @@
     "deploy": "npm run build && surge",
     "preview": "vite preview",
     "test:open": "peeky open",
-    "test": "peeky run"
+    "test": "peeky run",
+    "start": "node index.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
