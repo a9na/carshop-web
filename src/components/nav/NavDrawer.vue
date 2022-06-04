@@ -149,6 +149,7 @@ const {
 
 <style lang="scss" scoped>
 .nav-drawer {
+  background: var(--pure-white);
   height: 200vh;
   width: 100%;
   position: absolute;
