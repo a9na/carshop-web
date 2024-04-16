@@ -1,3 +1,3 @@
 # carshop mock-up app
 
-Built using Vue 3, Vite, Pinia, SCSS
+Built using Vue 3, SCSS, Pinia & Vite
