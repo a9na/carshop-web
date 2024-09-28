@@ -2,6 +2,8 @@
 
 This project is a Vue.js application built to showcase a car shop's services and offerings. It leverages SCSS for styling, Pinia for state management, and Vite for quick development and bundling.
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-darkgreen?style=for-the-badge&logo=web&logoColor=white)](https://carshop-landing-page.netlify.app/)
+
 ### Languages & technologies:
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
